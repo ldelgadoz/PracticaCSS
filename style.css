@@ -1,3 +1,52 @@
 h1 {
     color: blueviolet;
+    text-align: center;
+    font-family: sans-serif;
+
+
+}
+h2 {
+    color: cadetblue;
+}
+h3 {
+    color: cadetblue;
+}
+h4{
+    color: cadetblue;
+}
+h5{
+    color: cadetblue;
+}
+h6{
+    color: cadetblue;
+}
+h7{
+    color: cadetblue
+}
+
+body{
+    color: blue;
+    background-color: black;
+}
+
+p {
+    color: white;
+    font-size: large;
+    font-family: sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+strong{
+    text-decoration: none;
+    color: inherit;
+}
+
+.caja{
+    border: 3px solid;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: crimson;
 }
