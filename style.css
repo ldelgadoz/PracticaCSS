@@ -8,6 +8,7 @@ h1 {
     color: var(--color-primario);
     text-align: center;
     font-family: sans-serif;
+    text-transform: uppercase; /* Propiedad 2: Transforma el texto a mayúsculas */
 }
 
 h2 {
@@ -78,6 +79,7 @@ table {
     border-radius: 12px;
     padding: 20px;
     background-color: var(--color-claro);
+    box-shadow: 3px 3px 10px #ccc; /* Propiedad 1: Sombra sutil para destacar la caja */
 }
 
 .vehiculo {
@@ -129,4 +131,19 @@ button {
     padding: 8px 16px;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.3s; /* Propiedad 3: Suaviza el cambio de color al pasar el ratón */
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Propiedad 4: Ajusta las imágenes sin deformarlas si cambian de tamaño */
+img {
+    object-fit: cover;
+}
+
+/* Propiedad 5: Opacidad para dar transparencia al elemento secundario (pie de página) */
+footer {
+    opacity: 0.6;
 }
