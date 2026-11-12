@@ -44,6 +44,15 @@ strong{
     color: inherit;
 }
 
+main{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px blue;
+    background-color: purple;
+
+}
+
 .caja{
     border: 3px solid;
     border-radius: 12px;
