@@ -147,3 +147,18 @@ img {
 footer {
     opacity: 0.6;
 }
+.imagen1{
+    width: 400px; height: auto;
+    border: 4px; color: black;
+    padding: 8px;
+    margin: 20px; align-content: normal;
+}
+
+.salario{
+    width: 100%;
+    border: 1px solid #ccc; 
+}
+.celdas{
+    border: 1px solid #ccc;
+    padding: 12px;
+}
