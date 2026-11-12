@@ -162,3 +162,8 @@ footer {
     border: 1px solid #ccc;
     padding: 12px;
 }
+.radio{
+    border: 1px dashed #666;
+    padding: 15px;
+    margin-bottom: 15px;
+}
