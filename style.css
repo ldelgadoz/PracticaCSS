@@ -53,6 +53,18 @@ main{
 
 }
 
+table{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    border-collapse: separate;
+    border-spacing: 15px 10px;
+
+    border: 2px solid #2c3e50;
+    border-radius: 8px;
+
+    padding: 15px;
+}
 .caja{
     border: 3px solid;
     border-radius: 12px;
@@ -63,4 +75,27 @@ main{
     font-size: large;
     color: chocolate;
 
+}
+.navegacion{
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: burlywood;
+    padding: 15px;
+    border-radius: 8px;
+
+}
+.navegacion a { 
+    color: #ffffff; 
+    text-decoration: none;
+    padding: 8px 16px; 
+    font-weight: bold; 
+    border-radius: 4px; 
+    transition: all 0.3s ease;
+}
+.navegacion a:hover{
+    background-color: #3498db;
+    color: black;
+    transform: translateY(-2px);
 }
