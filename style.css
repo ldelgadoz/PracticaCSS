@@ -1,16 +1,7 @@
 :root {
-    /* 3 Colores base elegidos */
-    --color-primario: #2563eb;    /* Azul: para acentos, títulos destacados y enlaces */
-    --color-oscuro: #1e293b;      /* Gris oscuro / Pizarra: para texto principal y encabezados */
-    --color-claro: #f1f5f9;       /* Gris claro / Fondo: para fondos y cajas */
-}
-
-body {
-    background-color: var(--color-claro);
-    color: var(--color-oscuro);
-    font-family: sans-serif;
-    margin: 0;
-    padding: 20px;
+    --color-primario: #2563eb;    /* 1. Azul */
+    --color-oscuro: #1e293b;      /* 2. Gris oscuro */
+    --color-claro: #f1f5f9;       /* 3. Gris claro */
 }
 
 h1 {
@@ -19,20 +10,44 @@ h1 {
     font-family: sans-serif;
 }
 
-h2, h3, h4, h5, h6, h7 {
+h2 {
     color: var(--color-oscuro);
+}
+
+h3 {
+    color: var(--color-oscuro);
+}
+
+h4 {
+    color: var(--color-oscuro);
+}
+
+h5 {
+    color: var(--color-oscuro);
+}
+
+h6 {
+    color: var(--color-oscuro);
+}
+
+h7 {
+    color: var(--color-oscuro);
+}
+
+body {
+    color: var(--color-oscuro);
+    background-color: var(--color-claro);
 }
 
 p {
     color: var(--color-oscuro);
     font-size: large;
     font-family: sans-serif;
-    line-height: 1.6;
 }
 
 a {
     text-decoration: none;
-    color: var(--color-primario);
+    color: inherit;
 }
 
 strong {
@@ -41,14 +56,11 @@ strong {
 }
 
 main {
-    max-width: 1200px;
-    width: 90%;
+    width: 1200px;
     margin: 0 auto;
     padding: 30px;
-    border: 1px solid #cbd5e1;
-    border-radius: 8px;
+    border: 2px solid var(--color-primario);
     background-color: #ffffff;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
 table {
@@ -62,11 +74,10 @@ table {
 }
 
 .caja {
-    border: 2px solid var(--color-primario);
+    border: 3px solid var(--color-primario);
     border-radius: 12px;
     padding: 20px;
     background-color: var(--color-claro);
-    margin: 20px 0;
 }
 
 .vehiculo {
@@ -95,35 +106,6 @@ table {
 
 .navegacion a:hover {
     background-color: var(--color-primario);
-    color: #ffffff;
+    color: var(--color-claro);
     transform: translateY(-2px);
-}
-
-button {
-    background-color: var(--color-primario);
-    color: #ffffff;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-button:hover {
-    opacity: 0.9;
-}
-
-
-button {
-    background-color: var(--color-primario);
-    color: #ffffff;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-button:hover {
-    opacity: 0.9;
 }
