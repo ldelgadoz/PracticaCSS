@@ -109,3 +109,24 @@ table {
     color: var(--color-claro);
     transform: translateY(-2px);
 }
+
+input {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+
+input:focus {
+    border-color: var(--color-primario);
+}
+
+
+button {
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
